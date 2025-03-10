@@ -2,7 +2,7 @@
 
 #!/usr/bin/env python3
 from datetime import datetime
-from sqlalchemy import create_engine, desc
+from sqlalchemy import create_engine
 from sqlalchemy import (CheckConstraint, UniqueConstraint, Column, DateTime, Integer, String)
 from sqlalchemy.ext.declarative import declarative_base
 
